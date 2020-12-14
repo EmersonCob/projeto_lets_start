@@ -63,6 +63,27 @@ a.active, a:hover{
     transition: 0.5s;
 }
 
+.checkbtn {
+    font-size: 30px;
+    color:#1b9bff;
+    float: right;
+    line-height: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        
+    }
+}
+
 footer {
     text-align: center;
     font-size: 12pt;
