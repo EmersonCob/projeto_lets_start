@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: none;
+}
+
+body {
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+
+}
+
+#mapid {
+    width: 100%;
+    height: 100%;
+
+    animation-delay: 200ms;
+}
+
+
+section {
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+    width: auto;
+    height: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.363);
+}
+
+#bg {
+    text-align: flex;
+}
+
+label.logo{
+    color: rgb(70, 142, 236);
+    font-size: 30px;
+    line-height: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    color: rgb(70, 142, 236);
+    font-size: 30px;
+    line-height: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color:rgb(70, 142, 236);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: #1b9bff;
+    color:white;
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    font-style: italic;
+    position: fixed;
+    bottom: 0; 
+    width:100%;
+    padding: 10px;
+}
