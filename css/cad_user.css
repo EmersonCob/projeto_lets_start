@@ -5,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     border: none;
+    outline: none;
     
 }
 /* cabeçalho */
@@ -48,6 +49,17 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 25px;
+}
+
+/*cancel */
+
+
+.cancel {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+    color:  #2aa6ee;
 }
 
 /* rodape */
