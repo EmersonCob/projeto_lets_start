@@ -50,6 +50,27 @@ body {
     border-radius: 10px;
     padding: 25px;
 }
+input {
+    height: 25px;
+    margin: 3px 0 8px 0;
+    border: ridge 0.3px;
+    border-radius: 5px;
+}
+
+.button-box {
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    font: normal 12pt Arial;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: rgb(70, 142, 236);
+    border-radius: 5px;
+}
 
 /*cancel */
 
