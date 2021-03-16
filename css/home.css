@@ -111,6 +111,21 @@ a.active, a:hover{
     }
 }
 
+img{
+    padding: 10px;
+    max-width:80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    float: right;
+    border-radius: 50px;
+}
+
+.rede{
+     margin-right: 10px;
+     transition: all 0.4s ease-out;
+}
+
 footer {
     text-align: center;
     font-size: 12pt;
