@@ -111,19 +111,20 @@ a.active, a:hover{
     }
 }
 
-img{
+section {   
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 10px;
-    max-width:80px;
-    max-height: 80px;
-    width: auto;
-    height: auto;
-    float: right;
-    border-radius: 50px;
+
 }
 
-.rede{
-     margin-right: 10px;
-     transition: all 0.4s ease-out;
+
+img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 100px;
 }
 
 footer {
