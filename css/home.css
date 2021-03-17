@@ -112,7 +112,7 @@ a.active, a:hover{
 }
 
 section {   
-    text-align: center;
+    text-align: right;
     position: fixed;
     bottom: 0;
     width: 100%;
