@@ -54,13 +54,13 @@ div #senha {
 }
 
 button {
-    margin-top: 16px;
-    font: normal 12pt Arial;
-    color: white;
-    background-color: rgba(92, 155, 238, 0.87);
-    border-radius: 5px;
+   font: normal 12pt Arial;
     width: 100px;
     height: 30px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: rgb(70, 142, 236);
+    border-radius: 5px;
 }
 
 #cadastro {
