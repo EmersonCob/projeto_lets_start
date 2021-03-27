@@ -44,10 +44,12 @@ section {
 }
 
 input {
+    padding: 0 0 0 5px;
     width: 200px;
     height: 25px;
+    border-radius: 5px;
+    border: solid 1px #ccc7c7;
 }
-
 
 div #senha {
     padding: 6px;
