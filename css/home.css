@@ -111,17 +111,24 @@ a.active, a:hover{
     }
 }
 
-section {
-    display: inline-block;
-    position: fixed;
-    padding: 5px;
-
+.box-atalhos {
+    display: ;
 }
 
+.atalhos {
+    bottom: 0;
+    justify-content: right;
+    text-align: right;
+    position: relative;
+}
+.rede {
+    display: inline-block;
+    justify-content: space-between;
+}
 
 img{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 70px;
+    max-height: 70px;
     border-radius: 100px;
 }
 
