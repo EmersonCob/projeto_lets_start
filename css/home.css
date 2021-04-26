@@ -111,6 +111,24 @@ a.active, a:hover{
     }
 }
 
+h1{
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-text{
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .atalhos {
     bottom: 0;
     justify-content: right;
