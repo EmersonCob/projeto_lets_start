@@ -22,7 +22,7 @@ nav {
 }
 
 label.logo{
-    color: rgb(70, 142, 236);
+    color: #fff;
     font-size: 30px;
     line-height: 60px;
     padding: 0px 100px 0px 20px;
@@ -32,7 +32,7 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 20px;
-    color: rgb(70, 142, 236);
+    color: #fff;
     font-size: 30px;
     line-height: 10px;
     padding: 5px;
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:rgb(70, 142, 236);
+    color:#fff;
     font-size: 17px;
     padding: 3px 10px;
     border-radius: 5px;
@@ -54,8 +54,8 @@ nav ul li a {
 }
 
 a.active, a:hover{
-    background: #1b9bff;
-    color:white;
+    background: rgba(255, 255, 255, 0.541);
+    color:#14ff47;
     transition: 0.5s;
 }
 

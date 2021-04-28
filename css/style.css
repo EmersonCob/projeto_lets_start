@@ -15,7 +15,7 @@ body {
 
 header {
     padding: 85px 0 55px;
-    color: rgb(255, 255, 255);
+    color: #c5d2d4;
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ section {
     font-size: 18pt;
     padding: 20px;
     font-weight: bold;
-    color:  #15adc8;
+    color:  #c5d2d4;
 }
 
 #email {
@@ -70,10 +70,10 @@ button {
     width: 100px;
     height: 30px;
     margin: 15px;
-    color: #ffffff;     
+    color: #fff;     
     border-radius: 5px;   
     border: 1px solid rgba(28, 48, 47, 0.932);
-    background: #15adc8;
+    background: #1e3d42;
     box-shadow: 2px 8px 15px rgb(0, 0, 0, 0.363);
     /*background-color: #091921;*/
 }
@@ -82,13 +82,13 @@ button {
     margin-top: 20px;
     text-align: center;
     font-size: 10pt;
-    color:  #15adc8;
+    color:  #c5d2d4;
 }
 
 footer {
     padding: 30px;
-    font-size: 10pt;
-    color: #15adc8;
+    font-size: 12pt;
+    color: #c5d2d4;
     text-align: center;
     font-style: italic;
 }
