@@ -9,6 +9,8 @@
 body {
     background: #091921;
     font: normal 15pt Arial;
+    height: 100vh;
+    width: 100%;
 
 }
 
@@ -166,50 +168,24 @@ h4 {
     justify-content: center;
 }
 
-
-.atalhos {
+footer{
+    background: rgba(255, 255, 255, 0.05);
     bottom: 0;
-    padding: 15px;
-    width: auto;
-}
-
-a {
-    margin: 0 5px;
-    font-size: 25px;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-i{
-    cursor: pointer;
-    width: 35px;
-    height: 35px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.rede {
-    display: inline-block;
-}
-
-img{
-    max-width: 70px;
-    max-height: 70px;
-}
-
-footer {
-    bottom: 0;
+    display: block;
+    position: absolute;
     width: 100%;
-    padding: 10px;
-    align-items: inline-block;
-}
-
-.box-footer {
     text-align: center;
     font-size: 12pt;
     color: white;
     font-style: italic;
 }
+
+i{    
+    font-size: 25px;    
+    color: #fff;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+
