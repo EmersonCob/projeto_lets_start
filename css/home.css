@@ -180,12 +180,19 @@ footer{
     font-style: italic;
 }
 
+p{
+    margin: 20px;
+}
+
+.atalhos{
+    margin: 20px;
+}
+
 i{    
+    padding: 0 10px 0 10px;
     font-size: 25px;    
     color: #fff;
     cursor: pointer;
-    width: 35px;
-    height: 35px;
 }
 
 
