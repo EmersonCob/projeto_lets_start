@@ -7,13 +7,14 @@
 }
 
 body {
-    background: rgb(70, 142, 236);
+    background: #091921;
     font: normal 15pt Arial;
 
 }
 
 nav {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+    display: block;
     height: 60px;
     width: 100%;
 }
@@ -171,8 +172,14 @@ h4 {
     justify-content: right;
     text-align: right;
     position: absolute;
-    padding: 7px;
-    width: 100%;
+    padding: 15px;
+    width: auto;
+}
+
+a {
+    margin: 0 5px;
+    font-size: 30px;
+    color: #fff;
 }
 
 .rede {

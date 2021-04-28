@@ -4,17 +4,18 @@
     text-decoration: none;
     list-style: none;
     box-sizing: none;
+    font-family: sans-serif;
 }
 
 body {
     background: #091921;
-    font: normal 15pt Arial;
+    font-size: 15pt;
 
 }
 
 header {
     padding: 85px 0 55px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -27,7 +28,7 @@ section {
     border-radius: 10px;
     padding: 25px;
     width: 350px;
-    height: 215px;
+    height: 255px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.363);
 }
@@ -53,7 +54,8 @@ input {
     width: 200px;
     height: 25px;
     border-radius: 5px;
-    border: solid 1px #ccc7c7;
+    outline: none;
+    border: none;
 }
 
 div #senha {
@@ -65,23 +67,23 @@ button {
     font: normal 10pt Arial;
     width: 100px;
     height: 30px;
-    margin: 10px;
+    margin: 15px;
     color: #ffffff;
-    background-color: rgb(70, 142, 236);
-    border: none;
+    background-color: #091921;
+    border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 5px;
 }
 
 #cadastro, #newAccount {
     margin-top: 20px;
     text-align: center;
-    font-size: 8pt;
+    font-size: 10pt;
     color:  #fff;
 }
 
 footer {
     padding: 30px;
-    font-size: 12pt;
+    font-size: 10pt;
     color: white;
     text-align: center;
     font-style: italic;
