@@ -7,19 +7,23 @@
 }
 
 body {
-    background: rgb(70, 142, 236);
+    background: #091921;
     font: normal 15pt Arial;
 
 }
 
 header {
-    padding: 25px;
+    padding: 85px 0 55px;
     color: white;
     text-align: center;
 }
 
 section {
-    background: white;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 10;
     border-radius: 10px;
     padding: 25px;
     width: 350px;
@@ -37,7 +41,7 @@ section {
     font-size: 18pt;
     padding: 20px;
     font-weight: bold;
-    color:  rgb(70, 142, 236);
+    color:  #fff;
 }
 
 #email {
@@ -57,25 +61,26 @@ div #senha {
 }
 
 button {
-    font: normal 12pt Arial;
+    cursor: pointer;
+    font: normal 10pt Arial;
     width: 100px;
     height: 30px;
     margin: 10px;
     color: #ffffff;
     background-color: rgb(70, 142, 236);
+    border: none;
     border-radius: 5px;
 }
 
-#cadastro {
+#cadastro, #newAccount {
     margin-top: 20px;
     text-align: center;
-    font-size: 10pt;
-    font-weight: bold;
-    color:  rgb(70, 142, 236);
+    font-size: 8pt;
+    color:  #fff;
 }
 
 footer {
-    padding: 20px;
+    padding: 30px;
     font-size: 12pt;
     color: white;
     text-align: center;
