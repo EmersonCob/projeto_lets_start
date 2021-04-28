@@ -42,7 +42,7 @@ section {
     font-size: 18pt;
     padding: 20px;
     font-weight: bold;
-    color:  #fff;
+    color:  #15adc8;
 }
 
 #email {
@@ -50,12 +50,14 @@ section {
 }
 
 input {
+    color: white;
+    background: #091921;
     padding: 0 0 0 5px;
     width: 200px;
     height: 25px;
     border-radius: 5px;
     outline: none;
-    border: none;
+    border: 2px solid rgba(28, 48, 56, 0.3);
 }
 
 div #senha {
@@ -64,27 +66,29 @@ div #senha {
 
 button {
     cursor: pointer;
-    font: normal 10pt Arial;
+    font: bolder 10pt Arial;
     width: 100px;
     height: 30px;
     margin: 15px;
-    color: #ffffff;
-    background-color: #091921;
-    border: 1px solid rgba(255, 255, 255, 0.09);
-    border-radius: 5px;
+    color: #ffffff;     
+    border-radius: 5px;   
+    border: 1px solid rgba(28, 48, 47, 0.932);
+    background: #15adc8;
+    box-shadow: 2px 8px 15px rgb(0, 0, 0, 0.363);
+    /*background-color: #091921;*/
 }
 
 #cadastro, #newAccount {
     margin-top: 20px;
     text-align: center;
     font-size: 10pt;
-    color:  #fff;
+    color:  #15adc8;
 }
 
 footer {
     padding: 30px;
     font-size: 10pt;
-    color: white;
+    color: #15adc8;
     text-align: center;
     font-style: italic;
 }
