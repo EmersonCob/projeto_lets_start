@@ -7,13 +7,13 @@
 }
 
 body {
-    background: rgb(70, 142, 236);
+    background: #091921;
     font: normal 15pt Arial;
 
 }
 
 nav {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
     height: 60px;
     width: 100%;
 }
