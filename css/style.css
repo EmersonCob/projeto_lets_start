@@ -74,7 +74,7 @@ button {
     border-radius: 5px;   
     border: 1px solid rgba(28, 48, 39, 0.932);
     background: #1e3d42;
-    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.9);
+    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.9);
     /*background-color: #091921;*/
 }
 
