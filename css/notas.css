@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background: #091921;
     font: normal 15pt Arial;
@@ -54,10 +53,9 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-
 a.active, a:hover{
-    background: #1b9bff;
-    color:white;
+    background: rgba(255, 255, 255, 0.541);
+    color:#14ff47;
     transition: 0.5s;
 }
 
@@ -116,13 +114,83 @@ a.active, a:hover{
     }
 }
 
-footer {
+h1{
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-text{
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-text {
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+
+.final-text {
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background: rgba(255, 255, 255, 0.05);
+    bottom: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
     text-align: center;
     font-size: 12pt;
     color: white;
     font-style: italic;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
+}
+
+p{
+    margin: 20px;
+}
+
+.atalhos{
+    margin: 20px;
+}
+
+i{    
+    padding: 0 10px 0 10px;
+    font-size: 25px;    
+    color: #fff;
+    cursor: pointer;
 }
