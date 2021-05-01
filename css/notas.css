@@ -61,7 +61,7 @@ a.active, a:hover{
 
 .checkbtn {
     font-size: 30px;
-    color:#1b9bff;
+    color:#14ff47;
     float: right;
     line-height: 60px;
     margin-right: 40px;
@@ -107,7 +107,7 @@ a.active, a:hover{
     }
     a:hover,a.active{
         background: none;
-        color: #0082e6;
+        color: #14ff47;
     }
     #check:checked ~ ul {
         left: 0;
@@ -194,3 +194,5 @@ i{
     color: #fff;
     cursor: pointer;
 }
+
+

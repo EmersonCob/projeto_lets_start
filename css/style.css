@@ -42,7 +42,7 @@ section {
     font-size: 18pt;
     padding: 20px;
     font-weight: bold;
-    color:  #c5d2d4;
+    color:  #14ff47;
 }
 
 #email {
@@ -70,11 +70,11 @@ button {
     width: 100px;
     height: 30px;
     margin: 15px;
-    color: #fff;     
+    color: #14ff47;     
     border-radius: 5px;   
-    border: 1px solid rgba(28, 48, 47, 0.932);
+    border: 1px solid rgba(28, 48, 39, 0.932);
     background: #1e3d42;
-    box-shadow: 2px 8px 15px rgb(0, 0, 0, 0.363);
+    box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.9);
     /*background-color: #091921;*/
 }
 
