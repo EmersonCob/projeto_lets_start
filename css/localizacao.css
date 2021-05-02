@@ -114,60 +114,6 @@ a.active, a:hover{
     }
 }
 
-h1{
-    color: white;
-    margin-top: 30px;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.initial-text{
-    color: white;
-    margin: 30px;
-    padding: 30px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-h3 {
-    color: white;
-    margin-top: 30px;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-text {
-    color: white;
-    margin: 30px;
-    padding: 30px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-h4 {
-    color: white;
-    margin-top: 30px;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center; 
-}
-
-.final-text {
-    color: white;
-    margin: 30px;
-    padding: 30px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 footer{
     background: rgba(255, 255, 255, 0.05);
     bottom: 0;
@@ -194,5 +140,3 @@ i{
     color: #fff;
     cursor: pointer;
 }
-
-
