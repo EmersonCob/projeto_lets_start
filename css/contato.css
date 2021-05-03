@@ -55,14 +55,14 @@ nav ul li a {
 }
 
 a.active, a:hover{
-    background: rgba(255, 255, 255, 0.541);
-    color:#14ff47;
+    background: rgba(87, 84, 84, 0.541);
+    color:#2aa6ee;
     transition: 0.5s;
 }
 
 .checkbtn {
     font-size: 30px;
-    color:#14ff47;
+    color:#2aa6ee;
     float: right;
     line-height: 60px;
     margin-right: 40px;
@@ -108,23 +108,40 @@ a.active, a:hover{
     }
     a:hover,a.active{
         background: none;
-        color: #14ff47;
+        color: #2aa6ee;
     }
     #check:checked ~ ul {
         left: 0;
     }
 }
 
-#titulo {
+.forms{
+    width: 450px;
+    height: 100%;
+    padding: 20px;
     font-family: sans-serif;
-    color: #fff;
-    margin-left: 7%;
+    font-size: 1em;
+    color: #2aa6ee;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    margin: 30px 0;
+    font-family: sans-serif;
+    color: #2aa6ee;
+    align-items: center;
+    text-align: center;
 }
 
 #subtitulo {
+    margin: 30px 0;
     font-family: sans-serif;
-    color: #fff;
-    margin-left: 10%;
+    color: #2aa6ee;
+    font-size: 16pt;
+    align-items: center;
+    text-align: center;
 }
 
 fieldset{
@@ -144,31 +161,68 @@ input, select, textarea, button {
     display: block;
 }
 
-fieldset.grupo.campo{
+fieldset.grupo .campo{
     float: left;
     margin-right: 1em;
 }
 
+.nome, .sobrenome, .fone, .email, .tipo {
+    padding: 0  0 5px 0;
+}
+
+input[type="radio"] {
+    margin: 3px 0;
+}
+
 .campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo select, .campo textarea{
-    padding: 0.2em;
-    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    display: block;
+    background: #2c3e50;
+    outline: none;
+}
+
+.prop{
+    padding: 5px 0;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+
+button {
+    background: #2c3e50;
+    color: #2aa6ee;
+    margin: 0 0 40px 0;
+    cursor: pointer;
+    font-size: 1.1em;
+    border: 0;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+button:hover {
+    background: #173849;
 }
 
 footer{
-    background: rgba(14, 7, 7, 0.05);
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.05);
     bottom: 0;
     display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
+    padding: 10px;
     text-align: center;
     font-size: 12pt;
     color: white;
     font-style: italic;
 }
 
-.copy{
+p{
     margin: 20px;
 }
 
@@ -178,9 +232,8 @@ footer{
 
 i{    
     padding: 0 10px 0 10px;
-    font-size: 25px;    
+    font-size: 20px;    
     color: #fff;
     cursor: pointer;
 }
-
 

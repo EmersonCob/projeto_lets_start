@@ -54,14 +54,14 @@ nav ul li a {
 }
 
 a.active, a:hover{
-    background: rgba(255, 255, 255, 0.541);
-    color:#14ff47;
+    background: rgba(87, 84, 84, 0.541);
+    color:#2aa6ee;
     transition: 0.5s;
 }
 
 .checkbtn {
     font-size: 30px;
-    color:#14ff47;
+    color:#2aa6ee;
     float: right;
     line-height: 60px;
     margin-right: 40px;
@@ -107,7 +107,7 @@ a.active, a:hover{
     }
     a:hover,a.active{
         background: none;
-        color: #14ff47;
+        color: #2aa6ee;
     }
     #check:checked ~ ul {
         left: 0;
