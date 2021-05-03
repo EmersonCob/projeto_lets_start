@@ -8,10 +8,10 @@
 
 body {
     background: #091921;
-    font: normal 15pt Arial;
+    font-family: sans-serif;
     height: 100vh;
     width: 100%;
-
+    font-size: 1em;
 }
 
 nav {
@@ -22,6 +22,7 @@ nav {
 }
 
 label.logo{
+    font-family: sans-serif;
     color: #fff;
     font-size: 30px;
     line-height: 60px;
@@ -113,6 +114,36 @@ a.active, a:hover{
         left: 0;
     }
 }
+
+#titulo {
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
 
 footer{
     background: rgba(255, 255, 255, 0.05);
