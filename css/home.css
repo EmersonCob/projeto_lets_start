@@ -115,13 +115,13 @@ a.active, a:hover{
 }
 
 .container-body {
-    border-radius: 5px;
-    height: 100vh;
+    height: 100%;
     width: 90%;
     margin: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: block;
 }
 
 h1{
@@ -138,7 +138,7 @@ h1{
     width: 90%;
     margin: auto;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
 }
@@ -157,7 +157,7 @@ h3 {
     width: 90%;
     margin: auto;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
 }
@@ -176,12 +176,13 @@ h4 {
     width: 90%;
     margin: auto;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
 }
 
 footer{
+    margin-top: 50px;
     background: rgba(255, 255, 255, 0.05);
     bottom: 0;
     display: block;
