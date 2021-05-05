@@ -114,73 +114,6 @@ a.active, a:hover{
     }
 }
 
-.container-body {
-    height: 100%;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: block;
-}
-
-h1{
-    color: white;
-    margin: 40px;
-    padding: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.initial-text{
-    color: white;
-    width: 90%;
-    margin: auto;
-    padding: 10px;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-}
-
-h3 {
-    color: white;
-    margin: 40px;
-    padding: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-text {
-    color: white;
-    width: 90%;
-    margin: auto;
-    padding: 10px;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-}
-
-h4 {
-    color: white;
-    margin: 40px;
-    padding: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center; 
-}
-
-.final-text {
-    color: white;
-    width: 90%;
-    margin: auto;
-    padding: 10px;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-}
-
 footer{
     margin-top: 50px;
     background: rgba(255, 255, 255, 0.05);
@@ -209,5 +142,32 @@ i{
     color: #fff;
     cursor: pointer;
 }
+
+
+
+.container{
+    height: 100%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial-text{
+    color: white;
+    width: 90%;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
 
 
