@@ -114,9 +114,19 @@ a.active, a:hover{
     }
 }
 
+.container-body {
+    border-radius: 5px;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
     color: white;
-    margin-top: 30px;
+    margin: 40px;
     padding: 20px;
     text-align: center;
     align-items: center;
@@ -125,8 +135,9 @@ h1{
 
 .initial-text{
     color: white;
-    margin: 30px;
-    padding: 30px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -134,8 +145,8 @@ h1{
 
 h3 {
     color: white;
-    margin-top: 30px;
-    padding: 20px;
+    margin: 40px;
+    padding: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -143,8 +154,9 @@ h3 {
 
 .middle-text {
     color: white;
-    margin: 30px;
-    padding: 30px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -152,8 +164,8 @@ h3 {
 
 h4 {
     color: white;
-    margin-top: 30px;
-    padding: 20px;
+    margin: 40px;
+    padding: 10px;
     text-align: center;
     align-items: center;
     justify-content: center; 
@@ -161,8 +173,9 @@ h4 {
 
 .final-text {
     color: white;
-    margin: 30px;
-    padding: 30px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
