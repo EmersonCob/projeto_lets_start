@@ -114,29 +114,3 @@ a.active, a:hover{
     }
 }
 
-footer{
-    background: rgba(255, 255, 255, 0.05);
-    bottom: 0;
-    display: block;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    font-size: 12pt;
-    color: white;
-    font-style: italic;
-}
-
-p{
-    margin: 20px;
-}
-
-.atalhos{
-    margin: 20px;
-}
-
-i{    
-    padding: 0 10px 0 10px;
-    font-size: 25px;    
-    color: #fff;
-    cursor: pointer;
-}

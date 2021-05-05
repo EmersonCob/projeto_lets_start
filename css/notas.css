@@ -115,10 +115,10 @@ a.active, a:hover{
 }
 
 footer{
-    background: rgba(255, 255, 255, 0.05);
+    background: #091921;
     bottom: 0;
     display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     font-size: 12pt;

@@ -84,11 +84,30 @@ button {
     font-size: 10pt;
     color:  #c5d2d4;
 }
-
-footer {
-    padding: 30px;
+footer{
+    margin: 30px;
+    background: #091921;
+    bottom: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
     font-size: 12pt;
     color: #c5d2d4;
-    text-align: center;
     font-style: italic;
+}
+
+p{
+    margin: 20px;
+}
+
+.atalhos{
+    margin: 20px;
+}
+
+i{    
+    padding: 0 10px 0 10px;
+    font-size: 25px;    
+    color: #c5d2d4;
+    cursor: pointer;
 }
