@@ -119,6 +119,7 @@ a.active, a:hover{
     margin: auto;
 }
 
+
 h1, h3{
     color: white;
     margin: auto;
@@ -129,10 +130,11 @@ h1, h3{
 }
 
 .initial-text{
+    font-size: 12pt;
     color: white;
     width: 90%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     align-items: center;
     justify-content: center;
     margin: auto;
