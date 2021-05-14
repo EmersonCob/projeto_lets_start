@@ -21,6 +21,7 @@ h1 {
 input, label{
     display: block;
     width: 100%;
+    margin: auto;
 }
 
 input:focus, label:focus {
@@ -43,7 +44,7 @@ body {
 /* form */
 
 #main-container {
-    width: 500px;
+    width: 450px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +65,13 @@ input {
     margin: 3px 0 8px 0;
     border: ridge 0.3px;
     border-radius: 5px;
+}
+
+.checkbox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
 }
 
 .button-box {
