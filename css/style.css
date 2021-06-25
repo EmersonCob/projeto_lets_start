@@ -79,6 +79,12 @@ button {
     /*background-color: #091921;*/
 }
 
+button:active
+{
+    transform: scale(0.8);
+    transition: all 0.7s;
+}
+
 #cadastro, #newAccount {
     margin-top: 20px;
     text-align: center;
